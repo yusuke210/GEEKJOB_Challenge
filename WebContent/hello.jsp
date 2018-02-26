@@ -8,7 +8,7 @@
 </head>
 <body>
 <%
-	out.print("hello world");
+	out.print("Hello world.");
 %>
 </body>
 </html>
