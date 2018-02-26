@@ -8,7 +8,8 @@
 </head>
 <body>
 <%
-	out.print("hello world");
+	String myName = "yusuke mashiko"; 
+	out.print(myName);
 %>
 </body>
 </html>
