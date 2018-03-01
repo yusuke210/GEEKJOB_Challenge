@@ -8,7 +8,10 @@
 </head>
 <body>
 <%
-	out.print("hello world");
+	final String GROOVE = "groove";
+	final String GEAR = "gear";
+	
+	out.print(GROOVE + "-" + GEAR);
 %>
 </body>
 </html>
