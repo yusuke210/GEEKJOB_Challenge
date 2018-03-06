@@ -8,7 +8,15 @@
 </head>
 <body>
 <%
-	out.print("hello world");
+	final int num = 1;
+
+	if(num == 1) {
+		out.print("１です！");
+	}else if(num == 2) {
+		out.print("プログラミングキャンプ！");
+	}else {
+		out.print("その他です！");
+	}
 %>
 </body>
 </html>
