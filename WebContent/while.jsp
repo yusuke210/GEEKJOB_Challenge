@@ -8,7 +8,11 @@
 </head>
 <body>
 <%
-	out.print("hello world");
+	int num = 1000;
+	while(num > 100) {
+		num /= 2;
+	}
+	out.println(num);
 %>
 </body>
 </html>
